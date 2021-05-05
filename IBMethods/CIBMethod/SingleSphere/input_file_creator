@@ -1,0 +1,30 @@
+#!/bin/bash
+
+Re_value="5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0"
+St_value="0.25 0.5 0.75 1.0 1.25 1.5"
+
+path1='Python'
+
+for Re in $Re_value
+do
+for St in $St_value
+do
+cd ..
+path2='Structures2/Re'$Re'/St'$St
+mkdir -p $path2
+cd $path1
+sed 's/RE_VALUE/'$Re'/g;s/ST_VALUE/'$St'/g' input2D > ../$path2/input2D
+sed 's/RE_VALUE/'$Re'/g;s/ST_VALUE/'$St'/g' spherobot2D.bsub > ../$path2/1sphereCIB.bsub
+cp botlow1.vertex PetscOptions.dat Makefile main.cpp ../$path2/
+#cp PetscOptions.dat ../Structures/v$visc/amp$amp/ksp$ksp1/PetscOptions.dat
+#cp Makefile ../Structures/v$visc/amp$amp/ksp$ksp1/Makefile
+#cp main.cpp ../Structures/v$visc/amp$amp/ksp$ksp1/main.cpp
+
+done
+done
+
+zip -r 'SS.r.Sweep2.zip' '../Structures2/'
+
+scp 'SS.r.Sweep2.zip' 'tdombro@killdevil.unc.edu:/netscr/tdombro/ibamr/thomas/1bot/StandardIB/Paper/CIB/SingleSphere/r0.15/Sweep2/SS.r.Sweep2.zip'
+
+#python generateFiles.py

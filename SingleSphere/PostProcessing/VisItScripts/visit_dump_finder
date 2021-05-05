@@ -1,0 +1,29 @@
+#!/bin/bash
+
+#This bash script is used to obtain the last 2 oscillations of our Single Sphere simulations                                                            
+#First it will find the last time step dump of each simulation (visit_dump_finder)                                                                      
+#It will save these values in a text file LastTimeStepDump.txt                                                                                  
+#LastTimeStepDump.txt will be read and the last index values will be used
+#to copy visit data over from killdevil (visit_dump_obtainer) 
+
+Re_value="7.0 9.0 11.0 13.0 15.0 17.0 19.0 21.0 23.0 25.0 27.0 29.0"
+St_value="0.25 0.5 0.75 1.0 1.25 1.5"
+
+homePath=$(pwd)
+
+echo "Last TimeStep Dumps" > $homePath/LastTimeStepDump.txt
+for Re in $Re_value
+do
+for St in $St_value
+do
+if cd $homePath/Re$Re/St$St/viz2D/; then
+Test=$(ls -t | head -4 | tail -1)
+FileNumber=$(echo $Test | awk -F. '{print $2}')
+#echo $Test >> ../../../LastTimeStepDump.txt
+echo $Re"."$St $FileNumber >> ../../../LastTimeStepDump.txt
+else
+echo "ZERO" >> ../../../LastTimeStepDump.txt
+fi
+echo "Done"
+done
+done

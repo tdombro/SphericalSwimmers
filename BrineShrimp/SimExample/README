@@ -1,0 +1,8 @@
+Changes to the domain of flow tank
+
+Height = 6cm
+Width (X) = 8 cm
+Length (Y) = 32 cm (-16,16) try to have 2* width behind mesh to make sure boundaries don't affect flow
+
+Kemal will give us the velocity magnitudes for the parabolic flow
+ 

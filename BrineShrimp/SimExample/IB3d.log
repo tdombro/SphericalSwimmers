@@ -1,0 +1,10 @@
+Warning in file ``../../../../SAMRAI-2.4.4/source/toolbox/timers/TimerManager.C'' at line 74
+WARNING MESSAGE: 
+TimerManager::getManager() is called before
+createManager().  Creating the timer manager
+(without using input database.)
+
+
+IBFEMethod: mesh part 0 is using FIRST order LAGRANGE finite elements.
+
+IBHierarchyIntegrator::initializePatchHierarchy(): tag_buffer = 1 3

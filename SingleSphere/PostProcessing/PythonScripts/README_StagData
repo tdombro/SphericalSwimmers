@@ -1,0 +1,30 @@
+This is info to help understand the datasets presented in this directory
+
+The following dataframes should be included in the same directory:
+Comma delimited
+Only for the Small Sphere
+1) StagPoint_r0.15m_Horizontal.csv
+2) StagPoint_r0.15m_Vertical.csv
+
+Horzontal: Perpendicular to Oscillation
+Vertical: Parallel to Oscillation
+
+Varible Clarification:
+Both Dataframes:
+1) Re_s = Streaming Reynolds Number = A^2/delta^2
+2) St = r/A
+3) Viscosity, Nu, is calculated from Re_s
+4) Re_Paper = Paper Reynolds number = A*r/delta^2
+(Since single sphere, don't worry about amp of small sphere. It is just amp)
+5) epsilon = 1/St
+6) Tvar = StagPos - r = 'T' which is the stag point dist in the published work about ellipsoids
+7) Msquared = M^2 = Re_Paper/epsilon
+8) Re_M = r^2/delta^2: Reynolds number used in ellipsoid paper
+9) velChange: indicates a velocity change along line of sight in the simulation domain
+10) direction: horizontal or vertical
+
+Just Horizontal:
+1) stagPos = distance from center of sphere to location where fluid velocity direction changes
+
+Just Vertical:
+1) stagPos = Takes into account the amplitude. It is the above minus the amplitude

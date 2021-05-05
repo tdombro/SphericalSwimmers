@@ -1,0 +1,911 @@
+*** Warning, This code is deprecated, and likely to be removed in future library versions! ./include/libmesh/auto_ptr.h, line 270, compiled Apr  3 2018 at 09:54:26 ***
+
+IBFEMethod: mesh part 0 is using FIRST order LAGRANGE finite elements.
+
+*** Warning, This code is deprecated, and likely to be removed in future library versions! ../LIBMESH/src/mesh/boundary_info.C, line 1016, compiled Apr  3 2018 at 09:53:05 ***
+[4]PETSC ERROR: ------------------------------------------------------------------------
+[4]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[4]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[4]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[4]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[4]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[4]PETSC ERROR: to get more information on the crash.
+[4]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[4]PETSC ERROR: Signal received
+[4]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[4]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[4]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[4]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[4]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[12]PETSC ERROR: [15]PETSC ERROR: ------------------------------------------------------------------------
+[15]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[15]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[15]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[15]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[15]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[15]PETSC ERROR: to get more information on the crash.
+[15]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[15]PETSC ERROR: Signal received
+[15]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[15]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[15]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[15]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[15]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[17]PETSC ERROR: ------------------------------------------------------------------------
+[17]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[17]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[17]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[17]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[17]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[17]PETSC ERROR: to get more information on the crash.
+[17]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[17]PETSC ERROR: Signal received
+[17]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[17]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[17]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[17]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[17]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[19]PETSC ERROR: ------------------------------------------------------------------------
+[19]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[19]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[19]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[19]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[19]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[19]PETSC ERROR: to get more information on the crash.
+[19]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[19]PETSC ERROR: Signal received
+[19]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[19]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[19]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[19]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[19]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[20]PETSC ERROR: ------------------------------------------------------------------------
+[20]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[20]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[20]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[20]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[20]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[20]PETSC ERROR: to get more information on the crash.
+[20]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[20]PETSC ERROR: Signal received
+[20]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[20]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[20]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[20]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[20]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[21]PETSC ERROR: ------------------------------------------------------------------------
+[21]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[21]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[21]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[21]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[21]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[21]PETSC ERROR: to get more information on the crash.
+[21]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[21]PETSC ERROR: Signal received
+[21]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[21]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[21]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[21]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[21]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[24]PETSC ERROR: [28]PETSC ERROR: ------------------------------------------------------------------------
+[28]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[28]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[28]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[28]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[28]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[28]PETSC ERROR: to get more information on the crash.
+[28]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[28]PETSC ERROR: Signal received
+[28]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[28]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[28]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[28]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[28]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[31]PETSC ERROR: ------------------------------------------------------------------------
+[31]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[31]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[31]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[31]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[31]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[31]PETSC ERROR: to get more information on the crash.
+[31]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[31]PETSC ERROR: Signal received
+[31]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[31]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[31]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[31]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[31]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[32]PETSC ERROR: ------------------------------------------------------------------------
+[32]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[32]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[32]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[32]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[32]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[32]PETSC ERROR: to get more information on the crash.
+[32]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[32]PETSC ERROR: Signal received
+[32]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[32]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[32]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[32]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[32]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[36]PETSC ERROR: ------------------------------------------------------------------------
+[36]PETSC ERROR: [40]PETSC ERROR: ------------------------------------------------------------------------
+[40]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[40]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[40]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[40]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[40]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[40]PETSC ERROR: to get more information on the crash.
+[40]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[40]PETSC ERROR: Signal received
+[40]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[40]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[40]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[40]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[40]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[42]PETSC ERROR: ------------------------------------------------------------------------
+[42]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[42]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[42]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[42]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[42]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[42]PETSC ERROR: to get more information on the crash.
+[42]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[42]PETSC ERROR: Signal received
+[42]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[42]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[42]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[42]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[42]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[43]PETSC ERROR: ------------------------------------------------------------------------
+[43]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[43]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[43]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[43]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[43]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[43]PETSC ERROR: to get more information on the crash.
+[43]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[43]PETSC ERROR: Signal received
+[43]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[43]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[43]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[43]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[43]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[0]PETSC ERROR: ------------------------------------------------------------------------
+[0]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[0]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[0]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[0]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[0]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[0]PETSC ERROR: to get more information on the crash.
+[0]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[0]PETSC ERROR: Signal received
+[0]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[0]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[0]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[0]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[0]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[1]PETSC ERROR: ------------------------------------------------------------------------
+[1]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[1]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[1]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[1]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[1]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[1]PETSC ERROR: to get more information on the crash.
+[1]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[1]PETSC ERROR: Signal received
+[1]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[1]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[1]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[1]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[1]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[2]PETSC ERROR: ------------------------------------------------------------------------
+[2]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[2]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[2]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[2]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[2]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[2]PETSC ERROR: to get more information on the crash.
+[2]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[2]PETSC ERROR: Signal received
+[2]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[2]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[2]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[2]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[2]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[3]PETSC ERROR: ------------------------------------------------------------------------
+[3]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[3]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[3]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[3]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[3]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[3]PETSC ERROR: to get more information on the crash.
+[3]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[3]PETSC ERROR: Signal received
+[3]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[3]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[3]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[3]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[3]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[5]PETSC ERROR: ------------------------------------------------------------------------
+[5]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[5]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[5]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[5]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[5]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[5]PETSC ERROR: to get more information on the crash.
+[5]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[5]PETSC ERROR: Signal received
+[5]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[5]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[5]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[5]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[5]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[6]PETSC ERROR: ------------------------------------------------------------------------
+[6]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[6]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[6]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[6]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[6]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[6]PETSC ERROR: to get more information on the crash.
+[6]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[6]PETSC ERROR: Signal received
+[6]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[6]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[6]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[6]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[6]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[7]PETSC ERROR: ------------------------------------------------------------------------
+[7]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[7]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[7]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[7]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[7]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[7]PETSC ERROR: to get more information on the crash.
+[7]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[7]PETSC ERROR: Signal received
+[7]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[7]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[7]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[7]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[7]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[8]PETSC ERROR: ------------------------------------------------------------------------
+[8]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[8]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[8]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[8]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[8]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[8]PETSC ERROR: to get more information on the crash.
+[8]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[8]PETSC ERROR: Signal received
+[8]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[8]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[8]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[8]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[8]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[9]PETSC ERROR: ------------------------------------------------------------------------
+[9]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[9]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[9]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[9]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[9]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[9]PETSC ERROR: to get more information on the crash.
+[9]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[9]PETSC ERROR: Signal received
+[9]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[9]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[9]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[9]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[9]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[10]PETSC ERROR: ------------------------------------------------------------------------
+[10]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[10]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[10]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[10]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[10]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[10]PETSC ERROR: to get more information on the crash.
+[10]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[10]PETSC ERROR: Signal received
+[10]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[10]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[10]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[10]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[10]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[11]PETSC ERROR: ------------------------------------------------------------------------
+[11]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[11]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[11]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[11]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[11]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[11]PETSC ERROR: to get more information on the crash.
+[11]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[11]PETSC ERROR: Signal received
+[11]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[11]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[11]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[11]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[11]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[14]PETSC ERROR: ------------------------------------------------------------------------
+[14]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[14]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[14]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[14]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[14]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[14]PETSC ERROR: to get more information on the crash.
+[14]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[14]PETSC ERROR: Signal received
+[14]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[14]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[14]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[14]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[14]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[16]PETSC ERROR: ------------------------------------------------------------------------
+[16]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[16]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[16]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[16]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[16]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[16]PETSC ERROR: to get more information on the crash.
+[16]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[16]PETSC ERROR: Signal received
+[16]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[16]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[16]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[16]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[16]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[18]PETSC ERROR: ------------------------------------------------------------------------
+[18]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[18]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[18]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[18]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[18]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[18]PETSC ERROR: to get more information on the crash.
+[18]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[18]PETSC ERROR: Signal received
+[18]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[18]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[18]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[18]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[18]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[22]PETSC ERROR: ------------------------------------------------------------------------
+[22]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[22]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[22]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[22]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[22]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[22]PETSC ERROR: to get more information on the crash.
+[22]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[22]PETSC ERROR: Signal received
+[22]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[22]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[22]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[22]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[22]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[23]PETSC ERROR: ------------------------------------------------------------------------
+[23]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[23]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[23]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[23]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[23]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[23]PETSC ERROR: to get more information on the crash.
+[23]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[23]PETSC ERROR: Signal received
+[23]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[23]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[23]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[23]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[23]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[25]PETSC ERROR: ------------------------------------------------------------------------
+[25]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[25]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[25]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[25]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[25]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[25]PETSC ERROR: to get more information on the crash.
+[25]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[25]PETSC ERROR: Signal received
+[25]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[25]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[25]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[25]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[25]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[26]PETSC ERROR: ------------------------------------------------------------------------
+[26]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[26]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[26]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[26]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[26]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[26]PETSC ERROR: to get more information on the crash.
+[26]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[26]PETSC ERROR: Signal received
+[26]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[26]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[26]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[26]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[26]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[27]PETSC ERROR: ------------------------------------------------------------------------
+[27]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[27]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[27]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[27]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[27]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[27]PETSC ERROR: to get more information on the crash.
+[27]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[27]PETSC ERROR: Signal received
+[27]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[27]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[27]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[27]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[27]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[30]PETSC ERROR: ------------------------------------------------------------------------
+[30]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[30]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[30]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[30]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[30]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[30]PETSC ERROR: to get more information on the crash.
+[30]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[30]PETSC ERROR: Signal received
+[30]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[30]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[30]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[30]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[30]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[33]PETSC ERROR: ------------------------------------------------------------------------
+[33]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[33]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[33]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[33]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[33]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[33]PETSC ERROR: to get more information on the crash.
+[33]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[33]PETSC ERROR: Signal received
+[33]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[33]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[33]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[33]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[33]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[34]PETSC ERROR: ------------------------------------------------------------------------
+[34]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[34]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[34]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[34]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[34]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[34]PETSC ERROR: to get more information on the crash.
+[34]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[34]PETSC ERROR: Signal received
+[34]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[34]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[34]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[34]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[34]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[35]PETSC ERROR: ------------------------------------------------------------------------
+[35]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[35]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[35]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[35]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[35]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[35]PETSC ERROR: to get more information on the crash.
+[35]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[35]PETSC ERROR: Signal received
+[35]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[35]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[35]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[35]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[35]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[37]PETSC ERROR: ------------------------------------------------------------------------
+[37]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[37]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[37]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[37]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[37]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[37]PETSC ERROR: to get more information on the crash.
+[37]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[37]PETSC ERROR: Signal received
+[37]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[37]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[37]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[37]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[37]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[39]PETSC ERROR: ------------------------------------------------------------------------
+[39]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[39]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[39]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[39]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[39]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[39]PETSC ERROR: to get more information on the crash.
+[39]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[39]PETSC ERROR: Signal received
+[39]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[39]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[39]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[39]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[39]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[36]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[36]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[36]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[36]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[36]PETSC ERROR: to get more information on the crash.
+[36]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[36]PETSC ERROR: Signal received
+[36]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[36]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[36]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[36]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[36]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[41]PETSC ERROR: ------------------------------------------------------------------------
+[41]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[41]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[41]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[41]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[41]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[41]PETSC ERROR: to get more information on the crash.
+[41]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[41]PETSC ERROR: Signal received
+[41]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[41]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[41]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[41]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[41]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+--------------------------------------------------------------------------
+MPI_ABORT was invoked on rank 0 in communicator MPI_COMM_WORLD
+with errorcode 59.
+
+NOTE: invoking MPI_ABORT causes Open MPI to kill all MPI processes.
+You may or may not see output from other processes, depending on
+exactly when Open MPI kills them.
+--------------------------------------------------------------------------
+[38]PETSC ERROR: ------------------------------------------------------------------------
+[38]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[38]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[38]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[38]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[38]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[38]PETSC ERROR: to get more information on the crash.
+[38]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[38]PETSC ERROR: Signal received
+[38]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[38]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[38]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[38]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[38]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[44]PETSC ERROR: ------------------------------------------------------------------------
+[24]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[24]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[24]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[24]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[24]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[24]PETSC ERROR: to get more information on the crash.
+[24]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[24]PETSC ERROR: Signal received
+[24]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[24]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[24]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[24]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[24]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[13]PETSC ERROR: ------------------------------------------------------------------------
+[13]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[13]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[13]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[13]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[13]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[13]PETSC ERROR: to get more information on the crash.
+[13]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[13]PETSC ERROR: Signal received
+[13]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[13]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[13]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[13]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[13]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[29]PETSC ERROR: ------------------------------------------------------------------------
+[29]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[29]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[29]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[29]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[29]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[29]PETSC ERROR: to get more information on the crash.
+[29]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[29]PETSC ERROR: Signal received
+[29]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[29]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[29]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[29]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[29]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+------------------------------------------------------------------------
+[12]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[12]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[12]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[12]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[12]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[12]PETSC ERROR: to get more information on the crash.
+[12]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[12]PETSC ERROR: Signal received
+[12]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[12]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[12]PETSC ERROR: ./main3d on a linux-opt named c-209-9 by tdombro Fri Oct 12 10:38:08 2018
+[12]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[12]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[46]PETSC ERROR: ------------------------------------------------------------------------
+[46]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[46]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[46]PETSC ERROR: [47]PETSC ERROR: ------------------------------------------------------------------------
+[47]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[47]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[47]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[47]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[47]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[47]PETSC ERROR: to get more information on the crash.
+[47]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[47]PETSC ERROR: Signal received
+[47]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[47]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[47]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[47]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[47]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[49]PETSC ERROR: ------------------------------------------------------------------------
+[49]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[49]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[49]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[49]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[49]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[49]PETSC ERROR: to get more information on the crash.
+[49]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[49]PETSC ERROR: Signal received
+[49]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[49]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[49]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[49]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[49]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[50]PETSC ERROR: ------------------------------------------------------------------------
+[50]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[50]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[50]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[50]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[50]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[50]PETSC ERROR: to get more information on the crash.
+[50]PETSC ERROR: [51]PETSC ERROR: ------------------------------------------------------------------------
+[51]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[51]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[51]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[51]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[51]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[51]PETSC ERROR: to get more information on the crash.
+[51]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[51]PETSC ERROR: Signal received
+[51]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[51]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[51]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[51]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[51]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[52]PETSC ERROR: ------------------------------------------------------------------------
+[52]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[52]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[52]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[52]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[52]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[52]PETSC ERROR: to get more information on the crash.
+[52]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[52]PETSC ERROR: Signal received
+[52]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[52]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[52]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[52]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[52]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[53]PETSC ERROR: ------------------------------------------------------------------------
+[53]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[53]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[53]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[53]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[53]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[53]PETSC ERROR: to get more information on the crash.
+[53]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[53]PETSC ERROR: Signal received
+[53]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[53]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[53]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[53]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[53]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[55]PETSC ERROR: ------------------------------------------------------------------------
+[55]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[55]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[55]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[55]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[55]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[55]PETSC ERROR: to get more information on the crash.
+[55]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[55]PETSC ERROR: Signal received
+[55]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[55]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[55]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[55]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[55]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[56]PETSC ERROR: ------------------------------------------------------------------------
+[56]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[56]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[56]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[56]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[56]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[56]PETSC ERROR: to get more information on the crash.
+[56]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[56]PETSC ERROR: Signal received
+[56]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[56]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[56]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[56]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[56]PETSC ERROR: [57]PETSC ERROR: ------------------------------------------------------------------------
+[57]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[57]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[57]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[57]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[57]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[57]PETSC ERROR: to get more information on the crash.
+[57]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[57]PETSC ERROR: Signal received
+[57]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[57]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[57]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[57]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[57]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[59]PETSC ERROR: ------------------------------------------------------------------------
+[59]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[59]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[59]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[59]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[59]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[59]PETSC ERROR: to get more information on the crash.
+[59]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[59]PETSC ERROR: Signal received
+[59]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[59]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[59]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[59]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[59]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[62]PETSC ERROR: ------------------------------------------------------------------------
+[62]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[62]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[62]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[62]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[62]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[62]PETSC ERROR: to get more information on the crash.
+[62]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[62]PETSC ERROR: Signal received
+[62]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[62]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[62]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[62]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[62]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[63]PETSC ERROR: ------------------------------------------------------------------------
+[63]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[63]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[63]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[63]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[63]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[63]PETSC ERROR: to get more information on the crash.
+[63]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[63]PETSC ERROR: Signal received
+[63]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[63]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[63]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[63]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[63]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+------------------------------------------------------------------------
+[44]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[44]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[44]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[44]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[44]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[44]PETSC ERROR: to get more information on the crash.
+[44]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[44]PETSC ERROR: Signal received
+[44]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[44]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[44]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[44]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[44]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[46]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[46]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[46]PETSC ERROR: to get more information on the crash.
+[46]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[46]PETSC ERROR: Signal received
+[46]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[46]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[46]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[46]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[46]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[48]PETSC ERROR: ------------------------------------------------------------------------
+[48]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[48]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[48]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[48]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[48]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[48]PETSC ERROR: to get more information on the crash.
+[48]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[48]PETSC ERROR: Signal received
+[48]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[48]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[48]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[48]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[48]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+--------------------- Error Message --------------------------------------------------------------
+[50]PETSC ERROR: Signal received
+[50]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[50]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[50]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[50]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[50]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[54]PETSC ERROR: ------------------------------------------------------------------------
+[54]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[54]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[54]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[54]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[54]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[54]PETSC ERROR: to get more information on the crash.
+[54]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[54]PETSC ERROR: Signal received
+[54]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[54]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[54]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[54]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[54]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+#1 User provided function() line 0 in  unknown file
+[58]PETSC ERROR: ------------------------------------------------------------------------
+[58]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[58]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[58]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[58]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[58]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[58]PETSC ERROR: to get more information on the crash.
+[58]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[58]PETSC ERROR: Signal received
+[58]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[58]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[58]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[58]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[58]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[60]PETSC ERROR: ------------------------------------------------------------------------
+[60]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[60]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[60]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[60]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[60]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[60]PETSC ERROR: to get more information on the crash.
+[60]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[60]PETSC ERROR: Signal received
+[60]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[60]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[60]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[60]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[60]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[45]PETSC ERROR: ------------------------------------------------------------------------
+[45]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[45]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[45]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[45]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[45]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[45]PETSC ERROR: to get more information on the crash.
+[61]PETSC ERROR: ------------------------------------------------------------------------
+[61]PETSC ERROR: Caught signal number 11 SEGV: Segmentation Violation, probably memory access out of range
+[61]PETSC ERROR: Try option -start_in_debugger or -on_error_attach_debugger
+[61]PETSC ERROR: or see http://www.mcs.anl.gov/petsc/documentation/faq.html#valgrind
+[61]PETSC ERROR: or try http://valgrind.org on GNU/linux and Apple Mac OS X to find memory corruption errors
+[61]PETSC ERROR: configure using --with-debugging=yes, recompile, link, and run 
+[61]PETSC ERROR: to get more information on the crash.
+[61]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[45]PETSC ERROR: --------------------- Error Message --------------------------------------------------------------
+[45]PETSC ERROR: Signal received
+[45]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[45]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[45]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[45]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[45]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[61]PETSC ERROR: Signal received
+[61]PETSC ERROR: See http://www.mcs.anl.gov/petsc/documentation/faq.html for trouble shooting.
+[61]PETSC ERROR: Petsc Release Version 3.7.2, Jun, 05, 2016 
+[61]PETSC ERROR: ./main3d on a linux-opt named c-209-10 by tdombro Fri Oct 12 10:38:08 2018
+[61]PETSC ERROR: Configure options --CC=mpicc --CXX=mpicxx --FC=mpif90 --COPTFLAGS=-O3 --CXXOPTFLAGS=-O3 --FOPTFLAGS=-O3 --LDFLAGS="-L/usr/mpi/gcc/openmpi-2.0.3/lib64 -Wl,-rpath,/usr/mpi/gcc/openmpi-2.0.3/lib64" --with-default-arch=0 --PETSC_ARCH=linux-opt --with-debugging=0 --with-c++-support --with-hypre=1 --download-hypre=1 --with-x=0
+[61]PETSC ERROR: #1 User provided function() line 0 in  unknown file
+[c-209-9:42718] 63 more processes have sent help message help-mpi-api.txt / mpi-abort
+[c-209-9:42718] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages

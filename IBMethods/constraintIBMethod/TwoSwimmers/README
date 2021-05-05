@@ -1,0 +1,8 @@
+updated 10/1/20
+
+1a) set parameters in input2d
+1b) specify how to gen bot in input.gen_discs
+2) run the python script to generate vertex file(s), this script gets all input params set in the input2d file
+3) copy struct_info.txt into input2d
+4) go to ConstraintIBMethod in input2d, make sure the number of item in 'rho_solid' is the same as number of bot and circle
+5) ./main2d input2d

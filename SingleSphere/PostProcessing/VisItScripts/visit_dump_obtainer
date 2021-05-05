@@ -1,0 +1,39 @@
+#!/bin/bash
+
+#This bash script is used to obtain the last 2 oscillations of our Single Sphere simulations
+#First it will find the last time step dump of each simulation (visit_dump_finder)
+#It will save these values in a text file LastTimeStepDump.txt
+#LastTimeStepDump.txt will be read and the last index values will be used 
+#to copy visit data over from killdevil (visit_dump_obtainer) 
+
+Re_value="5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0"
+St_value="0.25 0.5 0.75 1.0 1.25 1.5"
+
+homePath="/netscr/tdombro/ibamr/thomas/1bot/StandardIB/Paper/CIB/SingleSphere/r0.15/Sweep2/Structures2/"
+
+for Re in $Re_value
+do
+for St in $St_value
+do
+Header=$(awk -v pattern="$Re.$St" '$0 ~ pattern {print $1}' LastTimeStepDump.txt | head -1)
+if [ "$Header" != $Re"."$St ]; then
+FileNumber="ZERO"
+echo "No Sims"
+else
+FileNumber=$(awk -v pattern="$Re.$St" '$0 ~ pattern {print $2}' LastTimeStepDump.txt | head -1)
+echo "FileNumber = "$FileNumber
+if [ "$FileNumber" == "60000" ]; then
+for Index in {0..39}
+do
+N=$(expr $Index \* 100)
+NUMBER=$(expr $FileNumber - $N)
+echo $NUMBER
+mkdir -p Re$Re/St$St/viz2D/
+scp -r tdombro@killdevil.unc.edu:$homePath/Re$Re/St$St/viz2D/visit_dump.$NUMBER Re$Re/St$St/viz2D/visit_dump.$NUMBER
+done
+else
+echo "Time Step Change: Re="$Re" St="$St
+fi
+fi
+done
+done

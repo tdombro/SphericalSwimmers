@@ -1,0 +1,41 @@
+IBStandardInitializer {
+	 max_levels      = MAX_LEVELS
+	 structure_names = "disc_1", "disc_2"
+	 disc_1 {
+		level_number = MAX_LEVELS - 1 
+	 }
+	 disc_2 {
+		level_number = MAX_LEVELS - 1 
+	 }
+}
+
+ConstraintIBKinematics {
+	 disc_1 {
+		structure_names                  = "disc_1"
+		structure_levels                 = MAX_LEVELS - 1
+		calculate_translational_momentum = 1,1,0
+		calculate_rotational_momentum    = 1,1,1
+		lag_position_update_method       = "CONSTRAINT_VELOCITY"
+		tagged_pt_identifier             = MAX_LEVELS - 1, 0
+		radius_0                         = RADIUS_LARGE
+		radius_1                         = RADIUS_SMALL
+		amplitude                        = AMPLITUDE
+		frequency                        = FREQUENCY
+		center_0                         = -0.0057978, 0.00103553
+		center_1                         = -0.00933333, -0.0025
+	 }
+	 disc_2 {
+		structure_names                  = "disc_2"
+		structure_levels                 = MAX_LEVELS - 1
+		calculate_translational_momentum = 1,1,0
+		calculate_rotational_momentum    = 1,1,1
+		lag_position_update_method       = "CONSTRAINT_VELOCITY"
+		tagged_pt_identifier             = MAX_LEVELS - 1, 0
+		radius_0                         = RADIUS_LARGE
+		radius_1                         = RADIUS_SMALL
+		amplitude                        = AMPLITUDE
+		frequency                        = FREQUENCY
+		center_0                         = 0.0057978, 0.00103553
+		center_1                         = 0.00933333, -0.0025
+	 }
+}

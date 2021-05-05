@@ -1,0 +1,266 @@
+// physical parameters
+FREQUENCY_OF_OSCILLATION = 10.0		//freq of osc b/w 2 discs
+SURF_TO_SURF_DISTANCE = 0.30 		// dist b/w 2 discs' surfaces
+AMPLITUDE_OF_SPRING_PERCENT = 0.6	// fraction of amplitude
+MAXAMP=0.3		      		//
+SMALL_AMPLITUDE = 0.8*MAXAMP*AMPLITUDE_OF_SPRING_PERCENT	//Amplitude of Small Sphere
+RHO = 2.0                                // fluid mass density (kg / m^3)
+//
+//constants
+PI = 3.141592653589			//
+REYNOLDS_NUMBER = 2.5 //Reynolds Number
+NUMERATOR = 2.0*PI*FREQUENCY_OF_OSCILLATION*RHO*SMALL_AMPLITUDE*0.15 //Top fraction when calculating Mu
+MU = NUMERATOR/REYNOLDS_NUMBER	//fluid viscosity
+PERIODIC = 0				  //Periodic bounds? 1 = Yes 0 = No
+//
+// AMR PARAMETERS
+MAX_LEVELS = 4				  //maximum number of levels in locally refined grid
+REF_RATIO = 4				  // refinement ratio between levels
+// grid spacing parameters
+NFINEST = 512				  //effective number of grid cells on finest grid level
+N = NFINEST / (REF_RATIO^(MAX_LEVELS - 1)) //number of grid cells on coarsest level
+L = 8.0		      			  // Length of simulation box
+H = 8.0					  // Width/Height of simulation box
+DX = (1.0*H)/NFINEST                      // Cartesian mesh width (m)
+//
+// solver parameters
+DELTA_FUNCTION      = "IB_4"              //
+START_TIME          = 0.0e0               // initial simulation time
+END_TIME            = 6.0e00               // final simulation time
+GROW_DT             = 1.0e0               // growth factor for timesteps
+NUM_CYCLES          = 1                   // number of cycles of fixed-point iteration
+CONVECTIVE_OP_TYPE  = "PPM"               // convective differencing discretization type
+CONVECTIVE_FORM     = "ADVECTIVE"         // how to compute the convective terms
+NORMALIZE_PRESSURE  = TRUE                // whether to explicitly force the pressure to have mean zero
+CFL_MAX             = 0.3                 // maximum CFL number
+DT = 1.0e-5                               // timestep duration (s)
+ERROR_ON_DT_CHANGE  = TRUE                // whether to emit an error message if the time step size changes
+VORTICITY_TAGGING   = TRUE                // whether to tag cells for refinement based on vorticity thresholds
+TAG_BUFFER          = 2                   // size of tag buffer used by grid generation algorithm
+REGRID_CFL_INTERVAL = 0.5                 // regrid whenever any material point could have moved 0.5 meshwidths since previous regrid
+OUTPUT_U            = TRUE                //
+OUTPUT_P            = TRUE                //
+OUTPUT_F            = TRUE                //
+OUTPUT_OMEGA        = TRUE                //
+OUTPUT_DIV_U        = FALSE                //
+ENABLE_LOGGING      = FALSE                //
+//
+CartesianGeometry {                //
+   domain_boxes = [ (0,0) , (N - 1,N - 1) ]                //
+   x_lo = -L/2.0, -H/2.0  // lower end of computational domain.
+   x_up =  L/2.0,  H/2.0  // upper end of computational domain.
+   periodic_dimension = PERIODIC, PERIODIC                //
+} //
+//
+GriddingAlgorithm { //
+   allow_patches_smaller_than_minimum_size_to_prevent_overlaps = TRUE //
+//
+   max_levels = MAX_LEVELS           // Maximum number of levels in hierarchy.
+   ratio_to_coarser { //
+      level_1 = REF_RATIO,REF_RATIO  // vector ratio to next coarser level
+      level_2 = REF_RATIO,REF_RATIO                //
+      level_3 = REF_RATIO,REF_RATIO                //
+      level_4 = REF_RATIO,REF_RATIO                //
+   } //
+                //
+   largest_patch_size {                //
+      level_0 = NFINEST, NFINEST  // largest patch allowed in hierarchy
+                                  // NOTE: all finer levels will use same values as level_0...
+   } //
+//
+   smallest_patch_size {                //
+      level_0 = N, N              // smallest patch allowed in hierarchy
+                                  // NOTE: all finer levels will use same values as level_0...
+   }                //
+//
+   efficiency_tolerance   = 0.85e0    // min % of tag cells in new patch level
+   combine_efficiency     = 0.85e0    // chop box if sum of volumes of smaller
+                                      // boxes < efficiency * vol of large box
+} //
+//
+IBHierarchyIntegrator {                //
+   start_time          = START_TIME                //
+   end_time            = END_TIME                //
+   grow_dt             = GROW_DT                //
+   num_cycles          = NUM_CYCLES                //
+   regrid_cfl_interval = REGRID_CFL_INTERVAL                //
+   dt_max              = DT                //
+   error_on_dt_change  = ERROR_ON_DT_CHANGE                //
+   tag_buffer          = TAG_BUFFER                //
+   enable_logging      = ENABLE_LOGGING                //
+} //
+//
+IBMethod {                //
+   delta_fcn      = DELTA_FUNCTION                //
+   enable_logging = ENABLE_LOGGING                //
+}                //
+                //
+IBStandardInitializer {                //
+   max_levels = MAX_LEVELS                //
+   structure_names = "botup1", "botlow1"                //
+   botup1 {                //
+      level_number = MAX_LEVELS - 1                //
+   } //
+   botlow1 {                //
+      level_number = MAX_LEVELS - 1                //
+   } //
+} //
+//
+INSStaggeredHierarchyIntegrator {                //
+   mu                         = MU                //
+   rho                        = RHO                //
+   start_time                 = START_TIME                //
+   end_time                   = END_TIME                //
+   grow_dt                    = GROW_DT                //
+   convective_op_type         = CONVECTIVE_OP_TYPE                //
+   convective_difference_form = CONVECTIVE_FORM                //
+   normalize_pressure         = NORMALIZE_PRESSURE                //
+   cfl                        = CFL_MAX                //
+   dt_max                     = DT                //
+   using_vorticity_tagging    = VORTICITY_TAGGING                //
+   vorticity_abs_thresh       = 0.5                //
+   tag_buffer                 = TAG_BUFFER                //
+   output_U                   = OUTPUT_U                //
+   output_P                   = OUTPUT_P                //
+   output_F                   = OUTPUT_F                //
+   output_Omega               = OUTPUT_OMEGA                //
+   output_Div_U               = OUTPUT_DIV_U                //
+   enable_logging             = ENABLE_LOGGING                //
+//
+   VelocityHypreSolver {                //
+      solver_type           = "Split"                //
+      split_solver_type     = "PFMG"                //
+      relative_residual_tol = 1.0e-12                //
+      max_iterations        = 1                //
+      enable_logging        = FALSE                //
+   } //
+//
+   VelocityFACSolver {                //
+      num_pre_sweeps  = 0                //
+      num_post_sweeps = 1                //
+      coarse_solver_choice = "hypre"                //
+      coarse_solver_tolerance = 1.0e-12                //
+      coarse_solver_max_iterations = 1                //
+      prolongation_method = "CONSTANT_REFINE"                //
+      restriction_method  = "CONSERVATIVE_COARSEN"                //
+      hypre_solver {                //
+         solver_type           = "Split"                //
+         split_solver_type     = "PFMG"                //
+         relative_residual_tol = 1.0e-12                //
+         max_iterations        = 1                //
+         enable_logging        = FALSE                //
+      } //
+   } //
+//
+   PressureHypreSolver {                //
+      solver_type           = "PFMG"                //
+      rap_type              = 0                //
+      relax_type            = 2                //
+      skip_relax            = 1                //
+      num_pre_relax_steps   = 2                //
+      num_post_relax_steps  = 2                //
+      relative_residual_tol = 1.0e-2                //
+      max_iterations        = 100                //
+      enable_logging        = FALSE                //
+   }                //
+//
+   PressureFACSolver { //
+      num_pre_sweeps  = 0                //
+      num_post_sweeps = 3                //
+      coarse_solver_choice = "hypre"                //
+      coarse_solver_tolerance = 1.0e-12                //
+      coarse_solver_max_iterations = 1                //
+      prolongation_method = "LINEAR_REFINE"                //
+      restriction_method  = "CONSERVATIVE_COARSEN"                //
+      hypre_solver {                //
+         solver_type           = "PFMG"                //
+         rap_type              = 0                //
+         relax_type            = 2                //
+         skip_relax            = 1                //
+         num_pre_relax_steps   = 0                //
+         num_post_relax_steps  = 3                //
+         relative_residual_tol = 1.0e-12                //
+         max_iterations        = 1                //
+         enable_logging        = FALSE                //
+      }                //
+   }                //
+}                //
+//
+LoadBalancer {                //
+   bin_pack_method     = "SPATIAL"                //
+   max_workload_factor = 1                //
+}                //
+//
+Main { //
+// log file parameters
+   log_file_name = "1botSIB.log"                //
+   log_all_nodes = FALSE                //
+//
+// visualization dump parameters
+   viz_writer = "VisIt"                //
+   viz_dump_interval = int(0.1/DT)      // set to zero to turn off
+   viz_dump_dirname = "viz2D"                //
+   visit_number_procs_per_file = 1                //
+//
+// restart dump parameters
+   restart_interval = int(1.0/DT)           // set to zero to turn off
+   restart_write_dirname = "restart2D"                //
+//
+// hierarchy data dump parameters
+   data_dump_interval = int(0.1/DT)         // set to zero to turn off
+   data_dump_dirname = "hier_data"                //
+//
+// timer dump parameters
+   timer_dump_interval = int(0.005/DT)        // set to zero to turn off
+} //
+//
+StandardTagAndInitialize {                //
+   tagging_method = "GRADIENT_DETECTOR"                //
+} //
+//
+TimerManager{                //
+   print_exclusive = FALSE                //
+   print_total = TRUE                //
+   print_threshold = 0.1                //
+//
+   timer_list = "IBAMR::*::*" , "IBTK::*::*" , "*::*::*"                //
+} //
+//
+VelocityInitialConditions {                //
+   function_0 = "0.0"                     // initial  conditions for the x-component of the velocity
+   function_1 = "0.0"                     // initial  conditions for the y-component of the velocity
+} //
+//
+VelocityBcCoefs_0 {                       // boundary conditions for the x-component of the velocity
+   acoef_function_0 = "1.0"                //
+   acoef_function_1 = "1.0"                //
+   acoef_function_2 = "1.0"                //
+   acoef_function_3 = "1.0"                //
+//
+   bcoef_function_0 = "0.0"                //
+   bcoef_function_1 = "0.0"                //
+   bcoef_function_2 = "0.0"                //
+   bcoef_function_3 = "0.0"                //
+//
+   gcoef_function_0 = "0.0"                //
+   gcoef_function_1 = "0.0"                //
+   gcoef_function_2 = "0.0"                //
+   gcoef_function_3 = "0.0"                //
+} //
+//
+VelocityBcCoefs_1 {                       // boundary conditions for the y-component of the velocity
+   acoef_function_0 = "1.0"                //
+   acoef_function_1 = "1.0"                //
+   acoef_function_2 = "1.0"                //
+   acoef_function_3 = "1.0"                //
+//
+   bcoef_function_0 = "0.0"                //
+   bcoef_function_1 = "0.0"                //
+   bcoef_function_2 = "0.0"                //
+   bcoef_function_3 = "0.0"                //
+//
+   gcoef_function_0 = "0.0"                //
+   gcoef_function_1 = "0.0"                //
+   gcoef_function_2 = "0.0"                //
+   gcoef_function_3 = "0.0"                //
+   } 

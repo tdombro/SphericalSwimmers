@@ -1,0 +1,99 @@
+PROJECT DATA LOCATIONS
+
+1. SINGLE SPHERE
+tdombro/SphericalSwimmers/SingleSphere
+/SimExample: Simulation example for CIB single sphere experiment
+/PostProcessing: Scripts used after simulation is complete
+/PostProcessing/VisItScripts: Scripts used with fluid data
+/PostProcessing/PythonScripts: python scripts for stagnation point data
+
+2. PRF1-Avg
+tdombro/SphericalSwimmers/PRF1-Avg
+/SimExample: Simulation example for CIB single swimmer
+/PostProcessing/PythonScripts: python scripts for position data
+/PaperFigures/Main: Figures and Adobe Illustrator (AI) files for PRF1 paper
+/PaperFigures/SI: Figures and AI files for SI 
+/DataFiles: data for different parameter sweeps performed
+
+ADDITIONAL DATA LOCATIONS
+DATA: /proj/dklotsalab/users/thomas/Paper/CIB/PRF_DataFiles
+SIMULATIONS: /proj/dklotsalab/users/thomas/Paper/CIB/PRF_WholeSweep
+SHANNON: /ms/depts/aps/dklotsalab/Spherobot/Shannon/Spherobot
+
+3. PRF2-Kinematics
+tdombro/SphericalSwimmers/PRF2_Kinematics
+/SimExample: Simulation example for CIB single swimmer
+/PostProcessing/VisitScripts: scripts used with fluid data
+/PostProcessing/PythonScripts: scripts used with kinematic data
+/PostProcessing/RScripts: scripts used to check steady state velocities
+/PaperFigures/AI: AI files for figures in PRF2
+/PaperFigures/Figures: Figures used in PRF2 (main and SI)
+/DataFiles: position and force data for specific Re
+
+ADDITIONAL DATA LOCATIONS:
+DATA: /proj/dklotsalab/users/thomas/Paper/CIB/PRF_DataFiles
+      /proj/dklotsalab/users/thomas/Paper/PRF_Kinematics
+      /ms/depts/aps/dklotsalab/tdombro/PRF2_Kinematics
+SUMULATIONS: /proj/dklotsalab/users/thomas/Paper/PRF_Kinematics
+
+4. PRF3-Pairwise
+tdombro/SphericalSwimmers/PRF3-Pairwise
+/SimExample/SpecificStablePairs/InTandemV: IB Sim example which forms in-tandem V
+/SimExample/SpecificStablePairs/InTandemOrbit: IB Sim example which forms in-tandem orbit
+/SimExample/SpecificStablePairs/InLineParallel: IB Sim example which forms in-line parallel
+/SimExample/SpecificStablePairs/InLineAnti: IB Sim example which forms in-line antiparallel
+/SimExample/PairDynamics: IB Sim example from initial configuration sweep
+/SimExample/InitRadiusAngleSweep: IB Sim example from initial radius and angle sweep
+/SimExample/PhaseChange: IB Sim Example which allows for a phase difference
+/SimExample/SingleBot: IB Sim example for a single swimmer
+/PostProcessing/VisItScripts: scripts used for fluid data (visualization and conversion to VTK for python scripts)
+/PostProcessing/PythonScripts/SpecificStablePairs: python and jupyter notebook scripts using position and fluid data
+/PostProcessing/PythonScripts/PairDynamics: python and jupyter notebook scripts using position and fluid data
+/PostProcessing/PythonScripts/InitRadiusAngleSweep: python and jupyter notebook scripts using position and fluid data
+/PostProcessing/PythonScripts/SingleBot: python scripts using position data
+/PaperFigures: Figures and AI files used in PRF3
+/SimulationSetups/SpecificStablePairs: shell scripts used to generate Re sweeps
+/SimulationSetups/PairDynamics: python and shell scripts used to generate initial configuration sweep
+/SimulationSetups/InitRadiusAngleSweep: python and sheel scripts used to generate a sweep over radius and angle
+/SimulationSetups/PairMeshes: sphere/disc mesh generation for unequal sphere swimmers and equal sphere swimmers (spring and vertex generation)
+/SimulationSetups/PhaseChange: python and shell scripts used to generate sweeps with a phase difference between swimmers
+/DataFiles/SpecificStablePairs: position data zips from Re sweep for each specific stable pair
+/DataFiles/InitRadiusAngleSweep: position data zip
+/DataFiles/SingleBot: position data zip
+
+ADDITIONAL DATA LOCATIONS:
+DATA: /ms/depts/aps/dklotsalab/tdombro/PRF3_Pairwise/PairDynamics/LongTime
+SIMULATIONS: /ms/depts/aps/dklotsalab/tdombro/PRF3_Pairwise/SpecificStablePairs
+             /ms/depts/aps/dklotsalab/tdombro/PRF3_Pairwise/InitRadiusAngleSweep
+             /ms/depts/aps/dklotsalab/tdombro/PRF3_Pairwise/SingleBot
+             /ms/depts/aps/dklotsalab/tdombro/PRF3_Pairwise/PairDynamics/LongTime
+             
+5. BrineShrimp
+tdombro/SphericalSwimmers/BrineShrimp
+/SimExample: IBFE sim example used to simulate flow past an array of cylinders in a flow tank
+/PostProcessing: python scripts used to visualize 3D flow and validate computational results with experimental PIV results
+/PaperFigures: Figures used in Paper for validation
+
+6. JFM-SingleBot
+tdombro/SphericalSwimmers/JFM-SingleBot
+/SimExample: 3D CIB sim example for a single swimmer
+/PostProcessing/VisItScripts: scripts used for fluid data (conversion to VTK for python use)
+/PostProcessing/PythonScripts: scripts used to visualize fluid data and analyze position data
+/SimulationSetup/CIB: shell scripts used to create parameter sweeps
+/SimulationSetup/constraintIB: scripts used to generate sphere meshes of different refinement for constraintIB sims
+
+ADDITIONAL DATA LOCATIONS:
+SIMULATIONS: /ms/depts/aps/dklotsalab/tdombro/JFM_SingleBot
+
+7. IBMethods
+tdombro/SphericalSwimmers/IBMethods
+/CIBMethod/SingleSphere: CIB sim example for oscillating single sphere
+/CIBMethod/SingleBot: CIB sim example for single swimmer (dumbbell)
+/IBMethod/SingleSphere: IB sim example for oscillating single sphere
+/IBMethod/SingleBot: IB sim example for single swimmer (dumbbell)
+/IBMethod/TwoSwimmers: IB sim example with two swimmers (dumbbell)
+/IBMethod/ManySwimmers: IB sim example with many dumbbell swimmers
+/constraintIBMethod/SingleSphere: cIB sim example for a single sphere (Nick you should modify single swimmer script to do this)
+/constraintIBMethod/SingleBot: cIB sim example for a single swimmer (dumbbell)
+/constraintIBMethod/TwoSwimmers: cIB sim example with two swimmers
+
